@@ -4,11 +4,25 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix geojp: <http://geonames.jp/resource/> .
 
-tag:1 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
-  oa:hasBody sp:パワーハラスメント;
+
+tag:701 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.japanfs.org/ja/news/archives/news_id027217.html>;
+  oa:hasBody sp:環境問題;
   oa:motivatedBy oa:tagging.
-tag:2 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
+tag:702 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.japanfs.org/ja/news/archives/news_id027217.html>;
   oa:hasBody geojp:愛知県名古屋市;
   oa:motivatedBy oa:tagging.
+
+tag:703 rdf:type oa:Annotation;
+  oa:hasTarget <https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13148695238>;
+  oa:hasBody sp:教育格差;
+  oa:motivatedBy oa:tagging.
+tag:704 rdf:type oa:Annotation;
+  oa:hasTarget <https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13148695238>;
+  oa:hasBody geojp:愛知県名古屋市;
+  oa:motivatedBy oa:tagging.
+
+
+
+
